@@ -1,0 +1,25 @@
+
+.form {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    color: #212121;
+    margin-top: 5.25rem;
+    padding: 2.1875rem 6rem;
+    box-shadow: 7px 7px 15px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 1.25rem;
+    width: 40rem;
+}
+
+.form h2 {
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 2.5rem;
+    font-weight: 400;
+}

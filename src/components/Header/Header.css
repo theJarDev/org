@@ -1,0 +1,11 @@
+
+.header {
+    background-color: #6278F7;
+    display: flex;
+    justify-content: center;
+}
+
+.header img {
+    max-width: 100%;
+
+}

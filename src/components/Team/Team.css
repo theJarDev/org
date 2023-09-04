@@ -1,0 +1,26 @@
+.team-container {
+    text-align: center;
+    position: relative;
+}
+
+.team-container h3 {
+    display: inline-block;
+    color: #212121;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: .5rem;
+    border-bottom: 4px solid #57C278;
+}
+
+.collaborator-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}
+
+.color-input {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}

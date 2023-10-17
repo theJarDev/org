@@ -14,9 +14,6 @@ const Team = ({team, collaborators, deleteCollaborator, updateColor, updateFav})
         <h3 style={{borderColor: mainColor}}>{title}</h3>
         <div className='collaborator-container'>
         {collaborators.map((collaborator, index) => <Collaborator key={index} name={collaborator.name} position={collaborator.position} image={collaborator.image} id={collaborator.id} fav={collaborator.fav} color={mainColor} deleteCollaborator={deleteCollaborator} updateFav={updateFav} />)}
-            {/* <Collaborator />
-            <Collaborator />
-            <Collaborator /> */}
         </div>
     </div>}</>
 }

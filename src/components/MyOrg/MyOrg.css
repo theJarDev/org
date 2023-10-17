@@ -20,3 +20,21 @@
     right: 9%;
     cursor: pointer;
 }
+
+
+@media (max-width: 767px) {
+    .org-section {
+        flex-direction: column;
+        margin: 2rem 0;
+    }
+
+    .org-section h2 {
+        font-size: 1.75rem;
+    }
+
+    .org-section img {
+        position: relative;
+        right: 0;
+        width: 20%;
+    }
+}

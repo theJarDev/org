@@ -24,3 +24,13 @@
     top: 20px;
     right: 30px;
 }
+
+@media (max-width: 767px) {
+    .team-container h3 {
+        font-size: 1.75rem;
+    }
+
+    .collaborator-container {
+        gap: 0.5rem;
+    }
+}

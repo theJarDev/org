@@ -9,3 +9,13 @@
     max-width: 100%;
 
 }
+
+@media (max-width: 767px) {
+    .header {
+        align-items: center;
+        height: 12rem;
+    }
+    .header img {
+        height: 10rem;
+    }
+}

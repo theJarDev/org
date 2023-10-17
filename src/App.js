@@ -59,13 +59,29 @@ function App() {
       name: 'Christopher',
       position: 'Developer',
       image: 'https://github.com/thejardev.png',
+      team: 'Programación',
+      fav: false
+    },
+    {
+      id: uuidv4(),
+      name: 'JeanMarie',
+      position: 'Front End Developer',
+      image: 'https://github.com/JeanmarieAluraLatam.png',
       team: 'Front End',
       fav: false
     },
     {
       id: uuidv4(),
-      name: 'Christopher',
+      name: 'José',
       position: 'Developer',
+      image: 'https://github.com/JoseDarioGonzalezCha.png',
+      team: 'Programación',
+      fav: false
+    },
+    {
+      id: uuidv4(),
+      name: 'Christopher',
+      position: 'Fullstack Developer',
       image: 'https://github.com/thejardev.png',
       team: 'Devops',
       fav: false
@@ -81,9 +97,9 @@ function App() {
     {
       id: uuidv4(),
       name: 'Harland Lohora',
-      position: 'Fullstack Developer',
+      position: 'Cloud Engineer',
       image: 'https://github.com/harlandlohora.png',
-      team: 'Programación',
+      team: 'Devops',
       fav: false
     },
     {
@@ -100,6 +116,14 @@ function App() {
       position: 'Head de Alura Latam',
       image: 'https://github.com/christianpva.png',
       team: 'Data Science',
+      fav: false
+    },
+    {
+      id: uuidv4(),
+      name: 'Christian',
+      position: 'Head de Alura Latam',
+      image: 'https://github.com/christianpva.png',
+      team: 'UX y Diseño',
       fav: false
     },
     {
